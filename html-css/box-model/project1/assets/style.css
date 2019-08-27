@@ -1,0 +1,121 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.rec1 {
+	width: 100px;
+	height: 65px;
+	border: 3px solid black;
+	/*border-color: black;*/
+	color: #B22E25;
+	background-color: #B22E25;
+	margin: 10px;
+}
+
+
+
+.rec2 {
+	width: 100px;
+	height: 65px;
+	border: 3px double black;
+	/*border-color: black;*/
+	color: #B22E25;
+	background-color: #B22E25;
+	margin: 10px;
+	display: inline-block;
+	
+}
+
+.span {
+	width: 100px;
+	height: 65px;
+	border: 3px dashed black;
+	/*border-color: black;*/
+	color: #B22E25;
+	background-color: #B22E25;
+	/*margin: 10px;*/
+	display: inline-block;
+}
+
+.rec3 {
+	width: 100px;
+	height: 65px;
+	border: 3px  dotted black ;
+	/*border-color:  black;*/
+	color: #B22E25;
+	background-color: #B22E25;
+	margin: 10px;
+	display: inline-block;
+	/*text-decoration-color: #B22E25;*/
+}
+
+.rec4 {
+	width: 100px;
+	height: 65px;
+	/*border: 2px  dotted black ;*/
+	/*border-color:  black;*/
+	color: #B22E25;
+	background-color: #B22E25;
+	margin-top: 10px;
+	display: inline-block;
+	/*text-decoration-color: #B22E25;*/
+}
+
+.big {
+	width: 280px;
+	border-top: 15px solid blue;
+	border-left: 15px solid grey;
+	border-bottom: 15px solid yellow;
+	border-right: 15px solid green;
+	color: #B22E25;
+	background-color: red;
+	margin: 20px;
+	display: inline-block;
+	padding: 10px;
+	color: white;
+	outline:20px solid purple;
+}

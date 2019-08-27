@@ -1,0 +1,157 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.box1 { 
+	width:300px;
+	height:100px;
+	border:2px solid #FE5349;
+	background-color:#FE5349;
+	color: white;
+	display: inline-block;
+	padding:5px;
+	margin:5px;
+}
+
+
+.box2{
+	width:150spx;
+	height:150px;
+	border: 2px solid #0C8871;
+	background-color: #0C8871;
+	color:white;
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+}
+
+.box3 {
+	width: 150px;
+	height: 150px;
+	border: 2px solid #B601FF;
+	background-color: #B601FF;
+	color: white;
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+	/*text-align: center;*/
+}
+
+/**/
+.box4 {
+	width: 150px;
+	height: 150px;
+	border: 2px solid #0DC1FD;
+	background-color: #0DC1FD;
+	color: white;
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+	/*text-align: center;*/
+}
+
+.box5 {
+	width: 350px;
+	height: 150px;
+	border: 2px solid #08CA80;
+	background-color: #08CA80;
+	color: white;
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+	/*text-align: center;*/
+}
+
+.box6 {
+	width: 150px;
+	height: 150px;
+	border: 2px solid #01F361;
+	background-color: #01F361;
+	color: white;
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+	/*text-align: center;*/
+}
+/**/
+
+.box7 {
+	width: 150px;
+	height: 150px;
+	border: 2px solid #E8FF1D;
+	background-color: #E8FF1D;
+	color: white;
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+	/*text-align: center;*/
+}
+
+.box8 {
+	width: 150px;
+	height: 150px;
+	border: 2px solid #FE7405;
+	background-color: #FE7405;
+	color: white;
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+	/*text-align: center;*/
+}
+
+.box9 {
+	width: 350px;
+	height: 150px;
+	border: 2px solid #E52F2D;
+	background-color: #E52F2D;
+	color: white;
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+	/*text-align: center;*/
+}

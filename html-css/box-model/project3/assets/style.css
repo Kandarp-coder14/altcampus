@@ -1,0 +1,229 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.nav {
+font-size: 15px;
+font-family: 'Blinker', sans-serif;
+padding-bottom: 2px;
+display: block-inline;
+margin-right: 22px;
+word-spacing: 10px;
+letter-spacing: 2px;
+}
+
+header {
+font-size: 20px;
+font-family: 'Blinker', sans-serif;
+color: #982D2F;
+margin-left: 10px;
+font-weight: bold;
+}
+
+body {
+width: 1000px;
+height:1000px;
+margin: 0 auto;
+}
+
+.sec1 {
+background-color: #272727;
+height: 400px;
+}
+
+section p.para {
+color: white;
+font-family: 'Blinker', sans-serif;
+margin-left: 10px;
+font-weight: bold;
+font-size: 24px;
+padding-top:50px; 
+width: 290px;
+}
+
+.navi {
+color: white;
+}
+
+.para1 {
+height: 100px;
+width: 310px;
+font-size: 12px;
+font-family: 'Blinker', sans-serif;
+color: white;
+margin-top: 10px;
+margin-left: 10px;
+}
+
+.anc {
+ display: inline-block;
+ /*text-align: bottom;*/
+ border: 2px solid white;
+ color: white;
+ margin-left: 1px;
+ padding-bottom: 5px;
+ font-family: 'Blinker', sans-serif;
+ margin-top: 20px;
+}
+
+.para2 {
+margin-top: 50px;
+font-family: 'Blinker', sans-serif;
+color: #DD3C3C;
+font-size: 24px;
+}
+
+.text1 {
+font-family: 'Blinker', sans-serif;
+font-size: 15px;
+margin-top: 10px;
+word-spacing: 5px;
+color: #B6B5B5;
+}
+
+.anc1 {
+ display: inline-block;
+ /*text-align: bottom;*/
+ border: 3px solid #DD3C3C;
+ color: #DD3C3C;
+ /*margin-left: 10px;*/
+ margin-top: 5px;
+ font-family: 'Blinker', sans-serif;
+}
+
+.para3 {
+background-color: #F1F0F0;
+height: 500px;
+}
+
+.text2 {
+color: #DD3C3C;
+/*margin-top: 150px*/
+padding-top: 40px;
+padding-bottom: 10px;
+font-family: 'Blinker', sans-serif;
+font-size: 22px;
+}
+
+.circle {
+/*margin-top: 80px;*/
+width:300px;
+height:300px;
+/*margin: 0 auto;*/
+border-radius:200px;
+background:#DD3C3C;
+}
+
+footer {
+height: 500px;
+background:#DD3C3C;
+}
+
+.text3{
+font-family: 'Blinker', sans-serif;
+color: white;
+padding-left: 20px;
+padding-top: 30px;
+font-size: 24px;
+}
+
+.name {
+font-family: 'Blinker', sans-serif;
+color: white;
+padding-top: 15px;
+padding-left: 22px;
+font-size: 15px;
+}
+
+.text4 {
+font-family: 'Blinker', sans-serif;
+color: black;
+word-spacing: 10px;
+padding-top: 10px;
+color: #B6B5B5;
+}
+
+.rect {
+width: 950px;
+height: 40px;
+border: 2px solid white;
+/*padding-left: 50px;
+padding-top: 20px;*/
+margin-left: 20px;
+margin-top: 20px;	
+}
+
+.message {
+font-family: 'Blinker', sans-serif;
+color: white;
+padding-top: 15px;
+padding-left: 22px;
+font-size: 15px;
+}
+
+.rect1 {
+width: 950px;
+height: 200px;
+border: 2px solid white;
+/*padding-left: 50px;
+padding-top: 20px;*/
+margin-left: 20px;
+margin-top: 20px;	
+}
+
+.msg {
+ display: inline-block;
+ /*text-align: bottom;*/
+ border: 1px solid white;
+ color: white;
+ /*margin-left: 10px;*/
+ /*padding-top: 5px;*/
+ margin-left: 20px;
+ margin-top: 30px;
+font-family: 'Blinker', sans-serif;
+}
+

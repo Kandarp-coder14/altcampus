@@ -1,0 +1,219 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrapper{
+	max-width: 900px;
+	margin: 0 auto;
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.box1{
+	background-attachment: fixed;
+	justify-content: center;
+	align-items: center;
+	/*height: 1200px;*/
+	height: 100vh;
+	/*max-width: 100%;*/
+	text-align:center;
+	font-family: 'Livvic', sans-serif;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgba(0,0,0, 0.4);
+	background-position: center;
+}
+.item{
+	text-align: left;
+	padding: 15px;
+	font-style: inherit;
+	font-size: 1.25em;
+    color: #fff;
+    font-weight: 600;
+}
+.item1{
+	padding: 350px ;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
+	text-transform:none; 
+	color: rgba(255, 255, 255, 0.75);
+	font-size: 60px;
+}
+#link{
+	text-align: right;
+}
+/*////////section2/////////*/
+.box2{
+	display: flex;
+	justify-content: center;
+	background-attachment: fixed;
+	align-items: center;
+	height:1200px;
+	max-width: 100%;
+	text-align:center;
+	font-family: 'Livvic', sans-serif;
+	background-image: url("../assets/images/banner2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*filter: blur(5px);*/
+
+}
+.wrapper{
+	background: rgba(0, 0, 0, 0.5);
+	padding: 100px;
+
+}
+.wrapper h1{
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: white;
+}
+.wrapper p{
+	color: white;
+}
+.content{
+	align-items: center;
+	height:150px;
+	max-width: 100%;
+	text-align:center;
+	font-family: 'Livvic', sans-serif;
+	position: relative;
+}
+.content p{
+	padding: 35px;
+	font-size: 18px;
+}
+button{
+	background-color: transparent;
+	padding: 10px 10px;
+	color: white;
+	border-style: none;
+
+}
+.box3{
+	display: flex;
+	justify-content: center;
+	background-attachment: fixed;
+	align-items: center;
+	height:1200px;
+	max-width: 100%;
+	text-align:center;
+	font-family: 'Livvic', sans-serif;
+	background-image: url("../assets/images/banner4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: blur(0.6px);
+}
+.box4{
+	display: flex;
+	justify-content: center;
+	background-attachment: fixed;
+	align-items: center;
+	height:1200px;
+	max-width: 100%;
+	text-align:center;
+	font-family: 'Livvic', sans-serif;
+	background-image: url("../assets/images/banner3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box5{
+	display: flex;
+	justify-content: center;
+	background-attachment: fixed;
+	align-items: center;
+	height:1200px;
+	max-width: 100%;
+	text-align:center;
+	font-family: 'Livvic', sans-serif;
+	background-image: url("../assets/images/banner5.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box6{
+	height: 1000px;
+	max-width: 100%;
+    background-color: #F64747;
+/*	display: flex;
+*/	justify-content: center;
+
+}
+.sec {
+	padding: 100px;
+	text-align: center;
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 25px;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+.info {
+text-align: center;
+}
+.name {
+	display: flex;
+}
+.icon li {
+display: inline-block;
+padding: 100px;
+}
+.icon {
+	text-align: center;
+}
+i {
+	font-weight: 600;
+	font-size: 20px;
+}
+.copyright {
+	text-align: center;
+	font-size: 20px;
+}
